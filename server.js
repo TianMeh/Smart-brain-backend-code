@@ -12,7 +12,7 @@ const db = knex({
     client: 'pg',
     connection: {
       connectionString: process.eventNames.DATABASE_URL,
-      port: 3000,
+      // port: 3000,
       ssl: true
     }
 });
