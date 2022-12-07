@@ -13,9 +13,7 @@ const db = knex({
     connection: {
       connectionString: process.eventNames.DATABASE_URL,
       port: 3000,
-      ssl: {
-        rejectUnauthorized: false
-      }
+      ssl: true
     }
 });
 
